@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-16">
+
+    <!-- Linking CSS and Javascript-->
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+
+
+
+    <!-- Header & Title-->
+    <title>
+        MHK Soundboard
+    </title>
+    <div class="header">
+        <div id="currplaytext">
+            <b>Currently Playing:</b>
+        </div>
+        <div id="currplay"> </div>
+        <img src="bilder/mhk.png" class="center" onclick="specialarefunc()"></img>
+        <h1>Mönsterås Handbollsklubb Soundboard</h1>
+    </div>
+
+</head>
+
+<body>
+    <!-- init all buttons -->
+    <div id="buttonparent">
+        <!-- Mål buttons -->
+        <button type="button" class="buttonmal" onclick="mal1func()">Mål<br>82nd</button>
+        <button type="button" class="buttonmal" onclick="mal2func()">Mål<br>Canelloi</button>
+        <button type="button" class="buttonmal" onclick="mal3func()">Mål<br>Dream on the Dance</button>
+        <button type="button" class="buttonmal" onclick="mal4func()">Mål<br>Everytime</button>
+        <button type="button" class="buttonmal" onclick="mal5func()">Mål<br>Genom eld och vatten</button>
+        <button type="button" class="buttonmal" onclick="mal6func()">Mål<br>Giv mig</button>
+        <button type="button" class="buttonmal" onclick="mal7func()">Mål<br>Hey B</button>
+        <button type="button" class="buttonmal" onclick="mal8func()">Mål<br>Highway to Hell</button>
+        <button type="button" class="buttonmal" onclick="mal9func()">Mål<br>Ladioo</button>
+        <button type="button" class="buttonmal" onclick="mal10func()">Mål<br>Levels</button>
+        <button type="button" class="buttonmal" onclick="mal11func()">Mål<br>Nu kommer aldrig</button>
+        <button type="button" class="buttonmal" onclick="mal12func()">Mål<br>Oslagbara</button>
+        <button type="button" class="buttonmal" onclick="mal13func()">Mål<br>Forever Young</button>
+        <button type="button" class="buttonmal" onclick="mal14func()">Mål<br>Spectre</button>
+        <button type="button" class="buttonmal" onclick="mal15func()">Mål<br>Stamp</button>
+        <button type="button" class="buttonmal" onclick="mal16func()">Mål<br>The Nights</button>
+        <button type="button" class="buttonmal" onclick="mal17func()">Mål<br>Thunder</button>
+        <button type="button" class="buttonmal" onclick="mal18func()">Mål<br>TNT</button>
+        <button type="button" class="buttonmal" onclick="mal19func()">Mål<br>Tomorrow Never</button>
+        <button type="button" class="buttonmal" onclick="mal20func()">Mål<br>Wake me up</button>
+
+        <br>
+
+        <!-- Other buttons -->
+        <button type="button" class="buttonraddning" onclick="raddningfunc()">Räddning<br>Another one</button>
+        <button type="button" class="buttonstraff" onclick="straff1func()">Straff<br>For a few</button>
+        <button type="button" class="buttonstraff" onclick="straff2func()">Straff<br>The Good The Bad</button>
+        <button type="button" class="buttontimeout" onclick="timeoutfunc()">Timeout<br>Då som nu</button>
+        <button type="button" class="buttonutvisning" onclick="utvisningfunc()">Utvisning<br>Emil</button>
+    </div>
+    <button type="button" class="buttonstop" onclick="stopfunc()">STOP<br>Stoppa all musik</button>
+</body>
+
+</html>

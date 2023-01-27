@@ -18,7 +18,7 @@ h1 {
 .header {
     padding: 10px;
     text-align: center;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(190,190,190,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 15%, rgba(190,190,190,1) 100%);
     font-size: 20px;
     margin: 10px;
     border-radius: 20px;

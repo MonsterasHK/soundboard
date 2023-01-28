@@ -56,103 +56,104 @@ utvisning.currentTime = 0;
 // Adding functions so that when a button is pressed, corresponding sound is played and the 'Currently Playing' is updated
 function mal1func() {
     mal1.play();
-    document.getElementById("currplay").textContent = "‎ Mål: 82nd";
+    
+    //document.getElementById("currplay").textContent = "‎ Mål: 82nd";
 }
 function mal2func() {
     mal2.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Canelloi";
+   // document.getElementById("currplay").textContent = "‎ Mål: Canelloi";
 }
 function mal3func() {
     mal3.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Dream on the Dance";
+    //document.getElementById("currplay").textContent = "‎ Mål: Dream on the Dance";
 }
 function mal4func() {
     mal4.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Everytime";
+    //document.getElementById("currplay").textContent = "‎ Mål: Everytime";
 }
 function mal5func() {
     mal5.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Genom eld och vatten";
+    //document.getElementById("currplay").textContent = "‎ Mål: Genom eld och vatten";
 }
 function mal6func() {
     mal6.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Giv mig";
+    //document.getElementById("currplay").textContent = "‎ Mål: Giv mig";
 }
 function mal7func() {
     mal7.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Hey B";
+    //document.getElementById("currplay").textContent = "‎ Mål: Hey B";
 }
 function mal8func() {
     mal8.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Highway to Hell";
+    //document.getElementById("currplay").textContent = "‎ Mål: Highway to Hell";
 }
 function mal9func() {
     mal9.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Ladioo";
+   // document.getElementById("currplay").textContent = "‎ Mål: Ladioo";
 }
 function mal10func() {
     mal10.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Levels";
+   // document.getElementById("currplay").textContent = "‎ Mål: Levels";
 }
 function mal11func() {
     mal11.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Nu kommer aldrig";
+    //document.getElementById("currplay").textContent = "‎ Mål: Nu kommer aldrig";
 }
 function mal12func() {
     mal12.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Oslagbara";
+    //document.getElementById("currplay").textContent = "‎ Mål: Oslagbara";
 }
 function mal13func() {
     mal13.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Forever Young";
+   // document.getElementById("currplay").textContent = "‎ Mål: Forever Young";
 }
 function mal14func() {
     mal14.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Spectre";
+   // document.getElementById("currplay").textContent = "‎ Mål: Spectre";
 }
 function mal15func() {
     mal15.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Stamp";
+   // document.getElementById("currplay").textContent = "‎ Mål: Stamp";
 }
 function mal16func() {
     mal16.play();
-    document.getElementById("currplay").textContent = "‎ Mål: The Nights";
+    //document.getElementById("currplay").textContent = "‎ Mål: The Nights";
 }
 function mal17func() {
     mal17.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Thunder";
+   // document.getElementById("currplay").textContent = "‎ Mål: Thunder";
 }
 function mal18func() {
     mal18.play();
-    document.getElementById("currplay").textContent = "‎ Mål: TNT";
+    //document.getElementById("currplay").textContent = "‎ Mål: TNT";
 }
 function mal19func() {
     mal19.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Tomorrow Never";
+   // document.getElementById("currplay").textContent = "‎ Mål: Tomorrow Never";
 }
 function mal20func() {
     mal20.play();
-    document.getElementById("currplay").textContent = "‎ Mål: Wake me up";
+    //document.getElementById("currplay").textContent = "‎ Mål: Wake me up";
 }
 function raddningfunc() {
     raddning.play();
-    document.getElementById("currplay").textContent = "‎ Räddning: Another one";
+    //document.getElementById("currplay").textContent = "‎ Räddning: Another one";
 }
 function straff1func() {
     straff1.play();
-    document.getElementById("currplay").textContent = "‎ Straff: For a few";
+   // document.getElementById("currplay").textContent = "‎ Straff: For a few";
 }
 function straff2func() {
     straff2.play();
-    document.getElementById("currplay").textContent = "‎ Straff: The Good The Bad";
+    //document.getElementById("currplay").textContent = "‎ Straff: The Good The Bad";
 }
 function timeoutfunc() {
     timeout.play();
-    document.getElementById("currplay").textContent = "‎ Timeout: Då som nu";
+   // document.getElementById("currplay").textContent = "‎ Timeout: Då som nu";
 }
 function utvisningfunc() {
     utvisning.play();
-    document.getElementById("currplay").textContent = "‎ Utvisning: EEEEMIL!";
+   // document.getElementById("currplay").textContent = "‎ Utvisning: EEEEMIL!";
 }
 
 // function for the stop button, pauses all sounds and also sets all sounds to 00:00
@@ -210,6 +211,6 @@ function stopfunc() {
     utvisning.currentTime = 0;
 
     // Empties out the 'Currently Playing' tab
-    document.getElementById("currplay").textContent = " ";
+    //document.getElementById("currplay").textContent = " ";
 
 }
